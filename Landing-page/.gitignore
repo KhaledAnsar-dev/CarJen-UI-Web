@@ -1,0 +1,50 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Backup / Temp
+*.bak
+*.tmp
+*.log
+
+# Node / npm / React / TypeScript
+node_modules/
+dist/
+build/
+.cache/
+*.tsbuildinfo
+
+# Vite / Webpack / Parcel
+*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Mac metadata
+._*
+
+# Yarn
+.yarn/
+.pnp.*
+.yarnrc.yml
+
+# npm logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage reports
+coverage/
+
+# Compiled TypeScript
+*.tsbuildinfo
+
+# Others
+.idea/
+*.swp
+*.swo
