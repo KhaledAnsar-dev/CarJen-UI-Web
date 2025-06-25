@@ -67,7 +67,60 @@ body {
 .margin-right-sm {
   margin-right: 1.6rem !important;
 }
+/***********************/
+/* Header */
+/***********************/
 
+.logo {
+  height: 4rem;
+}
+.header {
+  background-color: #f1faef;
+  padding: 0 4.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /*Because we want the header to be sticky later*/
+  height: 9.6rem;
+}
+
+/***********************/
+/* Navigation */
+/***********************/
+
+.main-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 4.6rem;
+  list-style: none;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: #333;
+  transition: all 0.3s;
+}
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #264d1f;
+}
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 15px;
+  background-color: #4da047;
+  color: white;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.main-nav-link:active {
+  background-color: #264d1f;
+}
 /***********************/
 /*hero section*/
 /***********************/
