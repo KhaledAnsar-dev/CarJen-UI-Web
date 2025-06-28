@@ -56,7 +56,7 @@
 /*hero section*/
 /***********************/
 
-.hero {
+.section-hero {
   background-color: #f1faef;
   padding: 6.8rem 0 9.6rem 0;
 }
@@ -114,11 +114,37 @@
   color: #264d1f;
   font-weight: 700;
 }
+/***********************/
+/*Featured-in*/
+/***********************/
 
+.section-featured {
+  padding: 4.6rem 0 3.2rem 0;
+}
+.heading-featured {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #8f8e8e;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+}
+.logos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logos img {
+  width: 15rem;
+  opacity: 80%;
+}
 /***********************/
 /*How it works*/
 /***********************/
-
+.section-how {
+  padding: 9.6rem 0;
+}
 .step-number {
   font-size: 8.6rem;
   color: #ddd;
@@ -163,4 +189,6 @@
 .step-img {
   width: 40%;
 }
-/*khaled------------------*/
+/***********************/
+/*Reports*/
+/***********************/
