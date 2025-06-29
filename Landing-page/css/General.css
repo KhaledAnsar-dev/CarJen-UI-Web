@@ -37,12 +37,6 @@ body {
   margin-bottom: 4.8rem;
 }
 
-.heading-quaternary {
-  font-size: 2.4rem;
-  line-height: 1.2;
-  margin-bottom: 1.6rem;
-}
-
 .heading-tertiary {
   font-size: 3rem;
   line-height: 1.2;
@@ -96,16 +90,29 @@ body {
   background-color: #f1faef;
   color: #264d1f;
 }
-.margin-right-sm {
-  margin-right: 1.6rem !important;
+
+.link:link,
+.link:visited {
+  color: #4da047;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  transition: all 0.3s;
 }
-.margin-bottom-sm {
-  margin-bottom: 1.6rem !important;
+
+.link:hover,
+.link:active {
+  color: #264d1f;
+  border-bottom: 1px solid transparent;
 }
+
 .grid {
   display: grid;
   column-gap: 6.8rem;
   row-gap: 9.6rem;
+}
+.grid--gap {
+  gap: 2.4rem;
 }
 
 .grid--center-v {
@@ -118,6 +125,7 @@ body {
 .grid--3-columns {
   grid-template-columns: repeat(3, 1fr);
 }
+
 .grid--4-columns {
   grid-template-columns: repeat(4, 1fr);
 }
@@ -127,14 +135,19 @@ body {
   margin: 0 auto;
   padding: 0 3.2rem;
 }
-
-.report-label {
-  padding: 0.4rem 0.8rem;
-  display: inline-block;
-  font-size: 1.2rem;
-  color: #333;
-  font-weight: 600;
-  text-transform: uppercase;
-  border-radius: 20px;
-  margin-bottom: 0.8rem;
+.container--left-side {
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+/***********************/
+/*Helper classes*/
+/***********************/
+.margin-right-sm {
+  margin-right: 1.6rem !important;
+}
+.margin-bottom-md {
+  margin-bottom: 4.8rem !important;
+}
+.center-text {
+  text-align: center;
 }
