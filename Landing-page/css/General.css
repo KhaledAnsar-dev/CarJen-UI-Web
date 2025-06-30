@@ -51,7 +51,14 @@ body {
   letter-spacing: 0.75px;
   margin-bottom: 1.6rem;
 }
-
+.inner-title {
+  font-size: 2.4rem;
+  line-height: 1.2;
+  margin-bottom: 1.6rem;
+  letter-spacing: -0.5px;
+  color: #333;
+  font-weight: 700;
+}
 .btn:link,
 .btn:visited {
   display: inline-block;
