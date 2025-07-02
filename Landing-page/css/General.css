@@ -81,6 +81,7 @@ body {
 }
 
 /*Button & link*/
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -117,6 +118,20 @@ body {
   /*Trick to add border inside*/
   box-shadow: inset 0 0 0 3px #fff;
   background-color: #f1faef;
+  color: #264d1f;
+}
+
+.btn--form {
+  background-color: #264d1f;
+  color: #fdf2e9;
+  align-self: end;
+  border: none;
+
+  padding: 1.2rem;
+}
+
+.btn--form:hover {
+  background-color: #e2d411;
   color: #264d1f;
 }
 
@@ -173,6 +188,12 @@ body {
   margin: 0 auto;
   padding: 0 3.2rem;
 }
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(7, 219, 7, 0.726);
+}
+
 /***********************/
 /*Helper classes*/
 /***********************/
