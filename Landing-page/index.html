@@ -6,6 +6,7 @@
     <title>CarJen platform</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/General.css" />
+    <link rel="stylesheet" href="css/queries.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,6 +21,7 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
       rel="stylesheet"
     />
+    <script defer src="js/script.js"></script>
     <!-- -->
   </head>
   <body>
@@ -34,6 +36,11 @@
           <li><a href="#" class="main-nav-link nav-cta">Try for free</a></li>
         </ul>
       </nav>
+      <!--Only for Mobile-->
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
     </header>
     <main>
       <section class="section-hero">
@@ -525,7 +532,7 @@
 
           <div class="card card--seller">
             <header class="plan-header">
-              <p class="plan-name">seller inspection</p>
+              <p class="plan-name">inspection</p>
               <p class="plan-price">4500<span class="currency">da</span></p>
               <p class="plan-note">One-time payment</p>
             </header>
