@@ -6,14 +6,20 @@ This is the **official landing page** for the CarJen platform — a system desig
 
 The landing page is a static marketing entry point built using HTML and CSS. It will serve as the default home route (`/`) and redirect users to the appropriate web applications for sellers and buyers once those apps are deployed.
 
----
+## 🚀 Live Demo
 
-## ⚙️ Tech Stack
+[carjen-landing.netlify.app](https://carjen-landing.netlify.app)
+
+## 🛠️ Tech Stack
 
 - HTML5
-- CSS3
-- (Optional) JavaScript / TypeScript – for future enhancements
-- (Optional) React – if needed later for dynamic content
+- CSS3 (Flexbox + Grid + Media Queries)
+- JavaScript (Vanilla)
+- Netlify (Deployment)
+
+## 📸 Preview
+
+![Screenshot](./img/General/CarJen-Group.png)
 
 ---
 
